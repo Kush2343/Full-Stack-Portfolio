@@ -11,7 +11,7 @@ import Conatct from './Components/Conatact/Conatct';
 import Header from './Components/Navbar/Navber';
 import Footer from './Components/Footer/Footer';
 
-function App() {
+function App({isOpen}) {
   useEffect(() => {
     AOS.init({ duration: 1200 });
     AOS.refresh();
@@ -20,7 +20,7 @@ function App() {
     <div className='bg'>
     <>
 <BrowserRouter>
-    <Header/>
+    <Header isOpen={isOpen}/>
 <Routes>
   <Route path='/' element={<Home/>}/>
   <Route path='/about' element={<About/>}/>
