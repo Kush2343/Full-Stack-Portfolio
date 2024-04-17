@@ -324,7 +324,7 @@ function Resume() {
                 <div className="bg-[--bg-color] py-5 rounded-xl gap-2 grid col-span-1">
   <div className="px-5">
     <h5 className="text-[--main-color]">Front-End Technology</h5>
-    <div className="grid grid-cols-2 gap-2 lg:grid-cols-3">
+    <div className="grid grid-cols-2 gap-2 lg:grid-cols-2 xl:grid-cols-3">
                   <div class="bg-[--bg-color] flex items-center w-28 lg:w-36 text-xs lg:text-base px-1 py-2 rounded-lg">
                     <FaHtml5 className="mr-1 text-orange-500" />
                     HTML
@@ -362,7 +362,7 @@ function Resume() {
     </div>
     <div className="px-5">
     <h5 className="text-[--main-color]">Back-End Technology</h5>
-    <div className="grid grid-cols-2 gap-2 lg:grid-cols-3">
+    <div className="grid grid-cols-2 gap-2 lg:grid-cols-2 xl:grid-cols-3">
     <div class="bg-[--bg-color] flex items-center w-28 lg:w-36 text-xs lg:text-base px-1 py-2 rounded-lg">
                     <FaGolang className="mr-1 text-cyan-400" />
                     Golang
