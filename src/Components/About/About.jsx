@@ -26,7 +26,7 @@ function About() {
           <div className="col-span-12 md:col-span-8 space-y-2.5">
             <div className=" md:mr-12 xl:mr-16">
               <h3 className="text-4xl font-mediu text-[--main-color] mb-2.5 ">
-                Who am i?
+              About me..
               </h3>
               <p className="text-gray-lite  text-color-910 leading-7 text-xs sm:text-base text-justify">
                 As a full-stack developer, I am proficient in both frontend and
@@ -52,14 +52,14 @@ function About() {
               </h3>
               <div className=" grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="flex">
-                  <span className="text-[--main-color] bg-[--component-color] shadow-icon mr-2.5 flex items-center justify-center rounded-md text-2xl w-11 h-11 text-">
+                  <span className="text-[--bg-color] bg-[--main-color] shadow-icon mr-2.5 flex items-center justify-center rounded-md text-2xl w-11 h-11 text-">
                     <IoPhonePortraitOutline />
                   </span>
                   <div className="space-y-1">
                     <p className="text-xs text-gray-lite text-color-910">
                       Phone
                     </p>
-                    <h6 className="font-medium text-[--text-color]">
+                    <h6 className="font-medium text-gray-lite">
                       <a
                         className="hover:text-[--main-color] duration-300 transition"
                         href="tel:+91 7016160435"
@@ -70,25 +70,25 @@ function About() {
                   </div>
                 </div>
                 <div className="flex">
-                  <span className="text-[--main-color] bg-[--component-color] shadow-icon mr-2.5 flex items-center justify-center rounded-md text-2xl w-11 h-11 text-">
+                  <span className="text-[--bg-color] bg-[--main-color] shadow-icon mr-2.5 flex items-center justify-center rounded-md text-2xl w-11 h-11 text-">
                     <MdOutlineLocationOn />
                   </span>
                   <div className="space-y-1">
                     <p className="text-xs text-gray-lite text-color-910">
                       Location
                     </p>
-                    <h6 className="font-medium text-[--text-color]">India</h6>
+                    <h6 className="font-medium text-gray-lite">India</h6>
                   </div>
                 </div>
                 <div className="flex">
-                  <span className="text-[--main-color] bg-[--component-color] shadow-icon mr-2.5 flex items-center justify-center rounded-md text-2xl w-11 h-11 text-">
+                  <span className="text-[--bg-color] bg-[--main-color] shadow-icon mr-2.5 flex items-center justify-center rounded-md text-2xl w-11 h-11 text-">
                     <MdOutlineEmail />
                   </span>
                   <div className="space-y-1">
                     <p className="text-xs text-gray-lite text-color-910">
                       Email
                     </p>
-                    <h6 className="font-medium text-[--text-color]">
+                    <h6 className="font-medium text-gray-lite">
                       <a
                         className="hover:text-[--main-color] duration-300 transition"
                         href="mailto:darshilpatel7056@gmail.com"
@@ -99,14 +99,14 @@ function About() {
                   </div>
                 </div>
                 <div className="flex">
-                  <span className="text-[--main-color] bg-[--component-color] shadow-icon mr-2.5 flex items-center justify-center rounded-md text-2xl w-11 h-11 text-">
+                  <span className="text-[--bg-color] bg-[--main-color] shadow-icon mr-2.5 flex items-center justify-center rounded-md text-2xl w-11 h-11 text-">
                     <FaRegCalendarAlt />
                   </span>
                   <div className="space-y-1">
                     <p className="text-xs text-gray-lite text-color-910">
                       Birthday
                     </p>
-                    <h6 className="font-medium text-[--text-color]">
+                    <h6 className="font-medium text-gray-lite">
                       Jan, 01 2001
                     </h6>
                   </div>
@@ -120,32 +120,32 @@ function About() {
             What I do!
           </h3>
           <div className="grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 ">
-            <div className="about-box bg-[--component-color] p-4 rounded-xl">
+            <div className="about-box bg-[--main-color] p-4 rounded-xl">
               <CgWebsite className="w-10 h-10 object-contain text-[--text-color]  block" />
               <div className="space-y-2 break-all">
-                <h3 className="text-[--main-color] text-xl font-semibold hover:text-[--main-color]">
+                <h3 className="text-[--bg-color] text-xl font-semibold">
                   Web Devlopment
                 </h3>
-                <p className=" leading-8 text-gray-lite text-[#7c7c7c]">
+                <p className=" leading-8 text-gray-lite text-[#909090]">
                 Harmonizing code and creativity to build dynamic and engaging online experiences for users worldwide
                 </p>
               </div>
             </div>
-            <div className="about-box bg-[--component-color] p-4 rounded-xl">
+            <div className="about-box bg-[--main-color] p-4 rounded-xl">
               <FaLaptopCode className="w-10 h-10 text-[--text-color] block pb-2" />
               <div className="space-y-2 break-all">
-                <h3 className="text-[--main-color] text-xl font-semibold hover:text-[--main-color]">
+                <h3 className="text-[--bg-color] text-xl font-semibold">
                  App Devlopment
                 </h3>
-                <p className=" leading-8 text-gray-lite text-[#7c7c7c]">
+                <p className=" leading-8 text-gray-lite text-[#909090]">
                 Weaving innovation and functionality to create seamless mobile experiences that elevate user engagement and streamline daily tasks.
                 </p>
               </div>
             </div>
-            <div className="about-box bg-[--component-color] p-4 rounded-xl">
+            <div className="about-box bg-[--main-color] p-4 rounded-xl">
               <RiTeamLine className="w-10 h-10 text-[--text-color] block pb-2" />
               <div className="space-y-2 break-all">
-                <h3 className="text-[--main-color] text-xl font-semibold hover:text-[--main-color]">
+                <h3 className="text-[--bg-color] text-xl font-semibold">
                   Team Work
                 </h3>
                 <p className=" leading-8 text-gray-lite text-[#7c7c7c]">
