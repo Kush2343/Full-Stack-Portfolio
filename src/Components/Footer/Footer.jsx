@@ -14,7 +14,7 @@ function Footer() {
           <h1 className="text-[--main-color] text-2xl font-extrabold pb-5">
             Darshil Patel
           </h1>
-<p className="text-wrap w-full text-[--text-color] text-base">Proficient in designing and developing blockchain applications on Hyperledger Fabric and Ethereum platforms. Skilled in implementing smart contracts and decentralized applications using Solidity.</p>
+<p className="text-wrap w-full text-[--text-color] text-base text-justify sm:pr-10">a versatile full-stack developer, adept in frontend and backend technologies like React JS and Node.js. With expertise in Python, Java, and Solidity, he leads teams effectively, delivering impactful products with a commitment to excellence and continuous learning.</p>
         </div>
         <div className="col-span-4">
           <div className="space-y-3">

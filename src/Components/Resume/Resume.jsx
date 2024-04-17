@@ -2,11 +2,7 @@ import React from "react";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
 import { DiJavascript } from "react-icons/di";
-import { DiJqueryLogo } from "react-icons/di";
-import { FaBootstrap } from "react-icons/fa";
-import { FaJava } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
-import { SiCplusplus } from "react-icons/si";
 import { FaDatabase } from "react-icons/fa";
 import { SiReact } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
@@ -15,6 +11,7 @@ import { SiSolidity } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 import { PiCertificateBold } from "react-icons/pi";
 import { FaLaptopCode } from "react-icons/fa";
+import { SiDjango } from "react-icons/si";
 
 function Resume() {
   return (
@@ -73,13 +70,13 @@ function Resume() {
             <div className="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg  bg-[--component-color]">
               <span className="text-tiny text-[--text-color]">2022</span>
               <h3 className="text-xl text-[--main-color]">
-                Freelance Blockchain Developer
+                Freelance Full-Stack Developer
               </h3>
             </div>
             <div className="py-4 pl-5 pr-3 space-y-2 rounded-lg  mb-6 bg-[--component-color]">
               <span className="text-tiny text-[--text-color]">2021-2022</span>
               <h3 className="text-xl text-[--main-color]">
-                Blockchain Developer{" "}
+                Full-Stack Developer
               </h3>
               <p className="dark:text-[#000000]">
                 Inferenz Tech Private Limited, Ahmedabad, India
@@ -87,7 +84,7 @@ function Resume() {
             </div>
             <div className="py-4 pl-5 pr-3 space-y-2 rounded-lg  bg-[--component-color]">
               <span className="text-tiny text-[--text-color]">2020-2021</span>
-              <h3 className="text-xl text-[--main-color]">React JS Intern</h3>
+              <h3 className="text-xl text-[--main-color]">React JS Devloper</h3>
               <p className="dark:text-[#000000]">Ping DR, Ahmedabad, India</p>
             </div>
           </div>
@@ -326,7 +323,7 @@ function Resume() {
                 </h4>
                 <div className="bg-[--bg-color] py-5 rounded-xl gap-2 grid col-span-1">
   <div className="px-5">
-    <h5 className="text-[--main-color]">Full Stack</h5>
+    <h5 className="text-[--main-color]">Front-End Technology</h5>
     <div className="grid grid-cols-2 gap-2 lg:grid-cols-3">
                   <div class="bg-[--bg-color] flex items-center w-28 lg:w-36 text-xs lg:text-base px-1 py-2 rounded-lg">
                     <FaHtml5 className="mr-1 text-orange-500" />
@@ -357,10 +354,14 @@ function Resume() {
                     <FaPython className="mr-1 text-blue-500" />
                     Python
                   </div>
+                  <div class="bg-[--bg-color] flex items-center w-28 lg:w-36 text-xs lg:text-base px-1 py-2 rounded-lg">
+                  <SiDjango className="mr-1 text-yellow-400" />
+                    Django
+                  </div>
                 </div>
     </div>
     <div className="px-5">
-    <h5 className="text-[--main-color]">Full Stack</h5>
+    <h5 className="text-[--main-color]">Back-End Technology</h5>
     <div className="grid grid-cols-2 gap-2 lg:grid-cols-3">
     <div class="bg-[--bg-color] flex items-center w-28 lg:w-36 text-xs lg:text-base px-1 py-2 rounded-lg">
                     <FaGolang className="mr-1 text-cyan-400" />

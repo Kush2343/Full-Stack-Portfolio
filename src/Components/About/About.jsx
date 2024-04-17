@@ -6,7 +6,7 @@ import { FaRegCalendarAlt } from "react-icons/fa";
 import { CgWebsite } from "react-icons/cg";
 import { RiTeamLine } from "react-icons/ri";
 import { FaLaptopCode } from "react-icons/fa";
-import Profile from '../../Images/profile.jpeg';
+import Profile from "../../Images/profile.jpeg";
 
 function About() {
   return (
@@ -18,7 +18,8 @@ function About() {
         <div className="grid grid-cols-12 md:gap-10 pt-4 md:pt-[5px] items-center">
           <div className="col-span-12 md:col-span-4">
             <img
-              className="w-full md:w-[330px] md:h-[400px] object-cover object-top overflow-hidden rounded-[35px] mb-3 md:mb-0 border-4 border-[--main-color]" src={Profile}
+              className="w-full md:w-[330px] md:h-[400px] object-cover object-top overflow-hidden rounded-[35px] mb-3 md:mb-0 border-4 border-[--main-color]"
+              src={Profile}
               alt=""
             />
           </div>
@@ -27,21 +28,22 @@ function About() {
               <h3 className="text-4xl font-mediu text-[--main-color] mb-2.5 ">
                 Who am i?
               </h3>
-              <p className="text-gray-lite  text-color-910 leading-7 text-xs sm:text-base">
-              Proficient in designing and developing blockchain applications on Hyperledger Fabric and Ethereum
-platforms. Skilled in implementing smart contracts and decentralized applications using Solidity.
+              <p className="text-gray-lite  text-color-910 leading-7 text-xs sm:text-base text-justify">
+                As a full-stack developer, I am proficient in both frontend and
+                backend technologies, allowing me to contribute to all aspects
+                of web application development. On the frontend, I specialize in
+                crafting engaging user experiences using modern frameworks like
+                React JS. Through thoughtful design and meticulous attention to
+                detail, I ensure that the interfaces I create are intuitive,
+                responsive, and aesthetically pleasing.
               </p>
-              <p className="text-gray-lite leading-7 mt-2.5 text-color-910 text-xs sm:text-base">
-              Led the development and maintenance of blockchain solutions, ensuring secure and efficient systems.
- Utilized React JS and Node JS to build user-friendly and secure web applications. 
-
-              </p>
-              <p className="text-gray-lite leading-7 mt-2.5 text-color-910 text-xs sm:text-base">
-              Technologically Proficient: Extensive technical skills in programming languages such as C, C++, Java,
-Python, Golang, and Solidity. Skilled in working with databases like MySQL, MongoDB, and CouchDB.
-Proficient in tools and frameworks including GitHub, Jira, Visual Studio, Eclipse, and PyCharm.
-Experienced in Linux, OS X, UNIX, and Windows operating systems. 
-
+              <p className="text-gray-lite leading-7 mt-2.5 text-color-910 text-xs sm:text-base text-justify">
+                My versatility extends beyond web development, as I am adept at
+                working with a variety of programming languages, databases, and
+                tools. Whether it's implementing complex business logic in
+                Python, optimizing database performance with SQL, or
+                collaborating with team members using Git and Jira, I possess
+                the technical acumen and adaptability to tackle any challenge.
               </p>
             </div>
             <div>
@@ -119,38 +121,35 @@ Experienced in Linux, OS X, UNIX, and Windows operating systems.
           </h3>
           <div className="grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 ">
             <div className="about-box bg-[--component-color] p-4 rounded-xl">
-            <CgWebsite className="w-10 h-10 object-contain text-[--text-color]  block"/>
+              <CgWebsite className="w-10 h-10 object-contain text-[--text-color]  block" />
               <div className="space-y-2 break-all">
                 <h3 className="text-[--main-color] text-xl font-semibold hover:text-[--main-color]">
-                 Web Design
+                  Web Devlopment
                 </h3>
                 <p className=" leading-8 text-gray-lite text-[#7c7c7c]">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                  diam euismod volutpat.
+                Harmonizing code and creativity to build dynamic and engaging online experiences for users worldwide
                 </p>
               </div>
             </div>
             <div className="about-box bg-[--component-color] p-4 rounded-xl">
-            <FaLaptopCode className="w-10 h-10 text-[--text-color] block pb-2"/>
+              <FaLaptopCode className="w-10 h-10 text-[--text-color] block pb-2" />
               <div className="space-y-2 break-all">
                 <h3 className="text-[--main-color] text-xl font-semibold hover:text-[--main-color]">
-                 Web Devlopment
+                 App Devlopment
                 </h3>
                 <p className=" leading-8 text-gray-lite text-[#7c7c7c]">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                  diam euismod volutpat.
+                Weaving innovation and functionality to create seamless mobile experiences that elevate user engagement and streamline daily tasks.
                 </p>
               </div>
             </div>
             <div className="about-box bg-[--component-color] p-4 rounded-xl">
-            <RiTeamLine className="w-10 h-10 text-[--text-color] block pb-2"/>
+              <RiTeamLine className="w-10 h-10 text-[--text-color] block pb-2" />
               <div className="space-y-2 break-all">
                 <h3 className="text-[--main-color] text-xl font-semibold hover:text-[--main-color]">
                   Team Work
                 </h3>
                 <p className=" leading-8 text-gray-lite text-[#7c7c7c]">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                  diam euismod volutpat.
+                Collaborating seamlessly, pooling diverse talents, and fostering synergy to achieve collective goals and exceed expectations.
                 </p>
               </div>
             </div>
