@@ -75,7 +75,7 @@ function Project() {
     ) : (
         <div>
             <h2 className="text-[--main-color]">{ProjectsDetails.name}</h2>
-            <a href={ProjectsDetails.website}>{ProjectsDetails.website}</a>
+            <a href={ProjectsDetails.website} target="_blank">{ProjectsDetails.website}</a>
             <p>{ProjectsDetails.detail}</p>
             <div className="lg:h-[500px] md:h-80 h-36 sm:h-40 p-[50px]">
             <img src={ProjectsDetails.img} alt={ProjectsDetails.name} className="h-[100%] border border-[--main-color] w-[100%] object-cover object-center object-fill" />
