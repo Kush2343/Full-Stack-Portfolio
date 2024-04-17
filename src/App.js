@@ -10,6 +10,7 @@ import Project from './Components/Project/Project';
 import Conatct from './Components/Conatact/Conatct';
 import Header from './Components/Navbar/Navber';
 import Footer from './Components/Footer/Footer';
+import RightClickBlocker from './right';
 
 function App({isOpen}) {
   useEffect(() => {
@@ -18,6 +19,7 @@ function App({isOpen}) {
   }, []);
   return (
     <div className='bg'>
+       <RightClickBlocker />
     <>
 <BrowserRouter>
     <Header isOpen={isOpen}/>
