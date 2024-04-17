@@ -90,7 +90,7 @@ const ProjectData =
         detail:"",
         description:"",
         img:lead,
-        website:"www.infolanze.com",
+        website:"www.leadhunter.co.in",
     },
 ];
 export default ProjectData
